@@ -1,3 +1,5 @@
 #! /usr/bin/bash
 
-GOOS=darwin GOARCH=arm64 go build .
+export GOOS=darwin
+export GOARCH=arm64
+go build .
