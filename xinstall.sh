@@ -3,4 +3,4 @@
 export GOOS=darwin
 export GOARCH=arm64
 
-go build -o /mnt/share/macbin/golang-mac-xcompile-hello-world .
+go build -o /nas/dev/golang-mac-xcompile-hello-world .
